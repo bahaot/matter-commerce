@@ -1,0 +1,34 @@
+.hero {
+  max-width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text-box {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 30%;
+}
+
+.hero-text-box h1{
+    font-size: 6rem;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.hero-text-box a {
+  color: #fff;
+}
+
+/* @media (max-width: 90em) {
+  .hero {
+    height: 60rem;
+  }
+} */

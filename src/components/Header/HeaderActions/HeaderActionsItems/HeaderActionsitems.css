@@ -1,0 +1,13 @@
+.header-actions-lists {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header-actions-lists a {
+  font-size: 1.4rem;
+}
+
+.header-actions-lists .icon {
+  height: 2.4rem;
+}

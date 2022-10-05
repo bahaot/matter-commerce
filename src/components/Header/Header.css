@@ -1,0 +1,10 @@
+.header {
+  max-width: 144rem;
+  margin: 0 auto;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  font-family: "Roboto", sans-serif;
+}

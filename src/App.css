@@ -1,0 +1,37 @@
+/* !general rules goes here  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/vl-newparis-headline");
+
+:root {
+  --main-color: #33333a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+
+  font-family: "VL NewParis Headline", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:link,
+a:active {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--main-color);
+}
