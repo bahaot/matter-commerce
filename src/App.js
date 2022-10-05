@@ -1,7 +1,8 @@
 import React from "react";
 import AlertBanner from "./components/AlertBanner/AlertBanner";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import Slider from "./components/Slider/Slider";
+import Featured from "./components/Featured/Featured";
 import "./App.css";
 
 /*
@@ -14,7 +15,8 @@ function App() {
     <React.Fragment>
       <AlertBanner />
       <Header />
-      <Hero />
+      <Slider />
+      <Featured />
     </React.Fragment>
   );
 }
