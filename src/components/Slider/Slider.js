@@ -5,7 +5,7 @@ import SliderBtn from "./SliderBtn/SliderBtn";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="slider">
       <img src="./imgs/hero-1.png" />
       <SliderTextBox />
       <SliderBtn />

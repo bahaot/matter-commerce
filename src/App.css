@@ -47,6 +47,7 @@ button {
   line-height: 1.4;
   font-weight: 400;
   color: var(--main-color);
+  margin-bottom: 3.2rem;
 }
 
 svg path {
