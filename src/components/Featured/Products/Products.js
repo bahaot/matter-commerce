@@ -1,21 +1,93 @@
+import Product from "./Product/Product";
+
 const Products = () => {
-  const html = (
-    <div className="product-card">
-      <div className="product-img-box">
-        <img src="./imgs/products/product-1.png" className="product-img" />
-      </div>
-      <div className="product-description">
-        <p className="product-title">
-          Pueraria Mirifica And Study Phyto Estrogens
-        </p>
-        <p className="product-price">$599.00</p>
-      </div>
-    </div>
-  );
+  const products = [
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-1.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: true,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-2.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: true,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-3.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: true,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-4.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: false,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-5.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: true,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-6.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: false,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-7.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: true,
+      country: "en-US",
+      currenncy: "USD",
+    },
+    {
+      id: 1,
+      imgSrc: "./imgs/products/product-home-8.png",
+      title: "Pueraria Mirifica And Study Phyto Estrogens",
+      price: "599",
+      isNew: false,
+      country: "en-US",
+      currenncy: "USD",
+    },
+  ];
 
   return (
     <div className="featured-products">
-      {[1, 1, 1, 1, 1, 1, 1, 1].map((i) => html)}
+      {products.map((product) => (
+        <Product
+          src={product.imgSrc}
+          title={product.title}
+          price={product.price}
+          isNew={product.isNew}
+          country={product.country}
+          currenncy={product.currenncy}
+        />
+      ))}
     </div>
   );
 };

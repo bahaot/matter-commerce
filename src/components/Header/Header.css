@@ -7,6 +7,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15rem;
+  padding: 0 2.4rem;
   font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 90em) {
+  .header {
+    padding: 0 15rem;
+  }
 }

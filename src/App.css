@@ -4,7 +4,8 @@
 
 :root {
   --main-color: #33333a;
-  --slider-btn: rgba(0, 0, 0, .4);
+  --slider-btn: rgba(0, 0, 0, 0.4);
+  --product-tag: #ff6008;
 }
 
 *,
