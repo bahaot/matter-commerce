@@ -1,0 +1,15 @@
+.section-shop {
+  margin-bottom: 12.8rem;
+}
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-shop {
+  width: 26.3rem;
+  height: 40rem;
+  position: relative;
+}
+

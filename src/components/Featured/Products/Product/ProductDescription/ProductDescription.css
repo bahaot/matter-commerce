@@ -1,0 +1,15 @@
+.product-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.product-title {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.product-price {
+  font-size: 1.4rem;
+}

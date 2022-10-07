@@ -1,7 +1,9 @@
 const SecondaryHeadign = (props) => {
-    console.log(props)
+  console.log(props);
   return (
-    <h2 className={`heading-secondary ${props.className}`}>{props.content}</h2>
+    <h2 className={`heading-secondary ${props.className || ""}`}>
+      {props.content}
+    </h2>
   );
 };
 

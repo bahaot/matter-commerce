@@ -1,0 +1,9 @@
+.section-videos {
+    margin-bottom: 12.8rem;
+}
+
+.videos-contaienr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+

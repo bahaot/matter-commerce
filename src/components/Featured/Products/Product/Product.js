@@ -1,20 +1,17 @@
 import "./Product.css";
+import ProductDescription from "./ProductDescription/ProductDescription";
+import ProductImg from "./ProductImg/ProductImg";
 
 const Product = (props) => {
-  const option = { style: "currency", currency: `${props.currenncy}` };
-
-  const currenncy = new Intl.NumberFormat(`${props.country}`, option).format(
-    props.price
-  );
   return (
     <div className={`product-card ${props.isNew ? "product-new" : ""}`}>
-      <div className="product-img-box">
-        <img src={props.src} className="product-img" />
-      </div>
-      <div className="product-description">
-        <p className="product-title">{props.title}</p>
-        <p className="product-price">{currenncy}</p>
-      </div>
+      <ProductImg src={props.src} />
+      <ProductDescription
+        country={props.country}
+        title={props.title}
+        currency={props.currency}
+        price={props.price}
+      />
     </div>
   );
 };

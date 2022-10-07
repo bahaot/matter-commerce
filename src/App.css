@@ -38,8 +38,10 @@ a:active {
 
 button {
   background: none;
-  display: inline-block;
+  display: block;
   border: none;
+  cursor: pointer;
+
 }
 
 .heading-secondary {
@@ -52,5 +54,6 @@ button {
 }
 
 svg path {
-  stroke-width: 0.7;
+  stroke-width: 1;
 }
+

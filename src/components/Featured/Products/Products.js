@@ -9,7 +9,7 @@ const Products = () => {
       price: "599",
       isNew: true,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -18,7 +18,7 @@ const Products = () => {
       price: "599",
       isNew: true,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -27,7 +27,7 @@ const Products = () => {
       price: "599",
       isNew: true,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -36,7 +36,7 @@ const Products = () => {
       price: "599",
       isNew: false,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -45,7 +45,7 @@ const Products = () => {
       price: "599",
       isNew: true,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -54,7 +54,7 @@ const Products = () => {
       price: "599",
       isNew: false,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -63,7 +63,7 @@ const Products = () => {
       price: "599",
       isNew: true,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
     {
       id: 1,
@@ -72,7 +72,7 @@ const Products = () => {
       price: "599",
       isNew: false,
       country: "en-US",
-      currenncy: "USD",
+      currency: "USD",
     },
   ];
 
@@ -85,7 +85,7 @@ const Products = () => {
           price={product.price}
           isNew={product.isNew}
           country={product.country}
-          currenncy={product.currenncy}
+          currency={product.currency}
         />
       ))}
     </div>
