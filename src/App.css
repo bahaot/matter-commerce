@@ -18,10 +18,12 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "VL NewParis Headline", sans-serif;
+  overflow-x: hidden;
 }
 
 ul {
@@ -41,7 +43,6 @@ button {
   display: block;
   border: none;
   cursor: pointer;
-
 }
 
 .heading-secondary {
@@ -57,3 +58,9 @@ svg path {
   stroke-width: 1;
 }
 
+
+@media (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}

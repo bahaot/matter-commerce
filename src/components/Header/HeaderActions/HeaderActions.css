@@ -1,0 +1,5 @@
+@media (max-width: 34rem) {
+    .main-nav ul {
+      display: none;
+    } 
+  }

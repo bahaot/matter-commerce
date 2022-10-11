@@ -11,3 +11,9 @@
 .header-actions-lists .icon {
   height: 2.4rem;
 }
+
+@media (max-width: 34em) {
+  .header-actions-lists {
+    margin-right: auto;
+  }
+}

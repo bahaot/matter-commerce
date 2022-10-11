@@ -1,0 +1,13 @@
+.btn-mobile {
+  display: none;
+}
+
+@media (max-width: 34rem) {
+  .btn-mobile {
+    display: block;
+  }
+  .btn-mobile__icon {
+    color: var(--main-color);
+    height: 3.2rem;
+  }
+}

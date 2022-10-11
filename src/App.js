@@ -9,6 +9,7 @@ import Videos from "./components/Videos/Videos";
 import AsSeenOn from "./components/AsSeenOn/AsSeenOn";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import Expolore from "./components/Explore/Expolore";
 
 /*
 **************** IMPORTANT ********************
@@ -23,6 +24,7 @@ function App() {
       <Slider />
       <Featured />
       <About />
+      <Expolore />
       <Shop />
       <Videos />
       <AsSeenOn />

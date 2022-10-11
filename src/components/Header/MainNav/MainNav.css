@@ -9,3 +9,9 @@
   font-weight: 500;
   letter-spacing: 1.2px;
 }
+
+@media (max-width: 34rem) {
+  .main-nav ul {
+    display: none;
+  } 
+}

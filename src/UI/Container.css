@@ -9,3 +9,9 @@
     padding: 0 15rem;
   }
 }
+
+@media (max-width: 85em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+}

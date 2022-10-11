@@ -7,12 +7,12 @@ const Featured = () => {
   const sectionTitle = "Featured";
   
   return (
-    <div className="featured">
-      <Container>
+    <section className="featured">
+      <Container className="container-featured">
         <SecondaryHeading content={sectionTitle} />
         <Products />
       </Container>
-    </div>
+    </section>
   );
 };
 

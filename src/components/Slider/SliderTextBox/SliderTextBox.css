@@ -28,3 +28,15 @@
   border-bottom: 0.2rem solid #fff;
   margin-right: auto;
 }
+
+@media (max-width: 62.5em) {
+  .hero-text-box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 34rem) {
+  .hero-text-box h1 {
+    font-size: 4.8rem;
+  }
+}
